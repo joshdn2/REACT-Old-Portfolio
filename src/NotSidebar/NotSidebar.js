@@ -76,14 +76,14 @@ export default function NotSidebar({scrollPoint}) {
                     <h1 className="nameTitle"><strong>About Me</strong></h1>
                     <br/>
                     <p className='aboutMeStyle'>
-                        I'm a full-stack developer and UX designer and researcher in the making. 
+                        I'm a full-stack developer and UX designer and researcher. 
                         <br/><br/>
                         I am currently studying information systems at the Brigham Young University Marriott School of Management. 
                         <br/><br/>
                         I'll graduate in December 2021 with a Master's degree in Information Systems Management, 
                         with an emphasis in Software Development. 
                         <br/><br/>
-                        I am currently working as a full-stack software developer and UX researcher in the BYU Physics and Astronomy department. 
+                        I am currently working as a full-stack software developer on the Elevate project at Anglepoint. 
                         <br/><br/>
                         My motto: Do good recklessly.
                         <br/>
@@ -100,7 +100,7 @@ export default function NotSidebar({scrollPoint}) {
                     <br/>
                     <Row>
                         <Col md={2}></Col>
-                        <Col md={2} className='centerTitle'><div className='skillBox'>React</div></Col>
+                        <Col md={2} className='centerTitle'><div className='skillBox'>Angular</div></Col>
                         <Col md={1}></Col>
                         <Col md={2} className='centerTitle'><div className='skillBox'>Database Design</div></Col>
                         <Col md={1}></Col>
@@ -112,7 +112,7 @@ export default function NotSidebar({scrollPoint}) {
                         <Col md={2}></Col>
                         <Col md={2} className='centerTitle'><div className='skillBox'>SQL</div></Col>
                         <Col md={1}></Col>
-                        <Col md={2} className='centerTitle'><div className='skillBox'>Agile</div></Col>
+                        <Col md={2} className='centerTitle'><div className='skillBox'>React</div></Col>
                         <Col md={1}></Col>
                         <Col md={2} className='centerTitle'><div className='skillBox'>Node</div></Col>
                         <Col md={2}></Col>
@@ -120,11 +120,11 @@ export default function NotSidebar({scrollPoint}) {
                     <br/>
                     <Row>
                         <Col md={2}></Col>
-                        <Col md={2} className='centerTitle'><div className='skillBox'>Excel</div></Col>
+                        <Col md={2} className='centerTitle'><div className='skillBox'>Agile</div></Col>
                         <Col md={1}></Col>
                         <Col md={2} className='centerTitle'><div className='skillBox'>JavaScript</div></Col>
                         <Col md={1}></Col>
-                        <Col md={2} className='centerTitle'><div className='skillBox'>Mozenda</div></Col>
+                        <Col md={2} className='centerTitle'><div className='skillBox'>Excel</div></Col>
                         <Col md={2}></Col>
                     </Row>
                     <br/>
@@ -249,7 +249,7 @@ export default function NotSidebar({scrollPoint}) {
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: '#10449E', color: '#fff' }}
                         contentArrowStyle={{ borderRight: '7px solid  #10449E' }}
-                        date="April 2020 - Present"
+                        date="April 2020 - May 2021"
                         dateClassName="timelineDate"
                         iconStyle={{ background: '#10449E', color: '#fff' }}
                         icon=""
@@ -288,21 +288,42 @@ export default function NotSidebar({scrollPoint}) {
                         <p className="bubbleTitle">
                             Current Material Includes:
                             <br/>
-                            - UX Design (user-centered design, leadership principles)
+                            - iOS Development (Swift & SwiftUI, MVVM)
                             <br/>
-                            - Cybersecurity (penetration testing, data protection, attack prevention, threat modeling)
+                            - Negotiation (Power & influence in negotiation)
                             <br/>
-                            - Advanced Predictive Analytics (machine learning algorithms, clustering)
+                            - Organizational Behavior (Decision making, organizational effectiveness)
                             <br/>
-                            - Enterprise Infrastructure (virtualization, containerization, devOps, storage)
+                            - Full Stack Development (Angular, .NET, SSMS)
                             <br/>
                             <br/>
-                            Capstone Project: 
+                            Capstone Project (Completed April 2021): 
                             <br/>
-                            - Productivity Management for software developers
+                            - Task-based calendar app that integrates multiple iCalendar feeds
                             <br/>
                             <br/>
                             Member of the Association for Information Systems and the BYU Developers Club
+                        </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        contentStyle={{ background: '#10449E', color: '#fff' }}
+                        contentArrowStyle={{ borderRight: '7px solid  #10449E' }}
+                        date="May 2021 - Present"
+                        dateClassName="timelineDate"
+                        iconStyle={{ background: '#10449E', color: '#fff' }}
+                        icon=""
+                    >
+                        <h3 className="vertical-timeline-element-title bubbleTitle">Software Developer</h3>
+                        <h5 className="vertical-timeline-element-subtitle bubbleTitle">Anglepoint</h5>
+                        <p className="bubbleTitle">
+                            Full Stack Developer
+                            <br/>
+                            - Angular/.NET stack
+                            <br/>
+                            - UX Research & Design (co-led redesign of project management side of Elevate)
+                            <br/>
+                            <br/>
                         </p>
                     </VerticalTimelineElement>
                 </VerticalTimeline>
