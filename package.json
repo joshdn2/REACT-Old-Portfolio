@@ -21,6 +21,7 @@
     "typeface-montserrat": "0.0.75"
   },
   "scripts": {
+    "deploychanges" : "git add . & git commit -am 'commit' & git push & npm run build & gh-pages -d build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",

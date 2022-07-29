@@ -181,7 +181,6 @@ export default function NotSidebar({scrollPoint}) {
                 </Col>
             </Row>
             <Row>
-            {/* https://www.npmjs.com/package/react-vertical-timeline-component */}
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
