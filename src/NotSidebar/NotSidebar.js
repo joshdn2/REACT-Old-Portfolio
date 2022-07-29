@@ -76,14 +76,12 @@ export default function NotSidebar({scrollPoint}) {
                     <h1 className="nameTitle"><strong>About Me</strong></h1>
                     <br/>
                     <p className='aboutMeStyle'>
-                        I'm a full-stack developer and UX designer and researcher. 
-                        <br/><br/>
-                        I am currently studying information systems at the Brigham Young University Marriott School of Management. 
-                        <br/><br/>
-                        I'll graduate in December 2021 with a Master's degree in Information Systems Management, 
-                        with an emphasis in Software Development. 
+                        I'm a full-stack developer, product manager in training, and UX designer and researcher. 
                         <br/><br/>
                         I am currently working as a full-stack software developer on the Elevate project at Anglepoint. 
+                        <br/><br/>
+                        I graduated in December 2021 with a Master's degree in Information Systems Management, 
+                        with an emphasis in Software Development from the Brigham Young University Marriott School of Management. 
                         <br/><br/>
                         My motto: Do good recklessly.
                         <br/>
@@ -102,19 +100,19 @@ export default function NotSidebar({scrollPoint}) {
                         <Col md={2}></Col>
                         <Col md={2} className='centerTitle'><div className='skillBox'>Angular</div></Col>
                         <Col md={1}></Col>
-                        <Col md={2} className='centerTitle'><div className='skillBox'>UX Research</div></Col>
+                        <Col md={2} className='centerTitle'><div className='skillBox'>UX Design</div></Col>
                         <Col md={1}></Col>
-                        <Col md={2} className='centerTitle'><div className='skillBox'>C#/.NET</div></Col>
+                        <Col md={2} className='centerTitle'><div className='skillBox'>Product Management</div></Col>
                         <Col md={2}></Col>
                     </Row>
                     <br/>
                     <Row>
                         <Col md={2}></Col>
+                        <Col md={2} className='centerTitle'><div className='skillBox'>C#/.NET</div></Col>
+                        <Col md={1}></Col>
                         <Col md={2} className='centerTitle'><div className='skillBox'>SQL</div></Col>
                         <Col md={1}></Col>
-                        <Col md={2} className='centerTitle'><div className='skillBox'>React</div></Col>
-                        <Col md={1}></Col>
-                        <Col md={2} className='centerTitle'><div className='skillBox'>Node</div></Col>
+                        <Col md={2} className='centerTitle'><div className='skillBox'>React/Node</div></Col>
                         <Col md={2}></Col>
                     </Row>
                     <br/>
