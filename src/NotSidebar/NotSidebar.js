@@ -102,9 +102,9 @@ export default function NotSidebar({scrollPoint}) {
                         <Col md={2}></Col>
                         <Col md={2} className='centerTitle'><div className='skillBox'>Angular</div></Col>
                         <Col md={1}></Col>
-                        <Col md={2} className='centerTitle'><div className='skillBox'>Database Design</div></Col>
-                        <Col md={1}></Col>
                         <Col md={2} className='centerTitle'><div className='skillBox'>UX Research</div></Col>
+                        <Col md={1}></Col>
+                        <Col md={2} className='centerTitle'><div className='skillBox'>C#/.NET</div></Col>
                         <Col md={2}></Col>
                     </Row>
                     <br/>
@@ -122,7 +122,7 @@ export default function NotSidebar({scrollPoint}) {
                         <Col md={2}></Col>
                         <Col md={2} className='centerTitle'><div className='skillBox'>Agile</div></Col>
                         <Col md={1}></Col>
-                        <Col md={2} className='centerTitle'><div className='skillBox'>JavaScript</div></Col>
+                        <Col md={2} className='centerTitle'><div className='skillBox'>Typescript</div></Col>
                         <Col md={1}></Col>
                         <Col md={2} className='centerTitle'><div className='skillBox'>Excel</div></Col>
                         <Col md={2}></Col>
@@ -140,7 +140,7 @@ export default function NotSidebar({scrollPoint}) {
                     <br/>
                     <Row>
                         <Col md={2}></Col>
-                        <Col md={2} className='centerTitle'><div className='skillBox2'>Docker</div></Col>
+                        <Col md={2} className='centerTitle'><div className='skillBox2'>Database Normalization</div></Col>
                         <Col md={1}></Col>
                         <Col md={2} className='centerTitle'><div className='skillBox2'>Git</div></Col>
                         <Col md={1}></Col>
@@ -227,7 +227,7 @@ export default function NotSidebar({scrollPoint}) {
                         <p className="bubbleTitle">
                             Material included:
                             <br/>
-                            - Programming (React, Node, C# MVC, Python DRF) 
+                            - Programming (React, Node, C# MVC, Python) 
                             <br/>
                             - Databases (design, normalization, SQL)
                             <br/>
@@ -255,10 +255,11 @@ export default function NotSidebar({scrollPoint}) {
                         icon=""
                     >
                         <h3 className="vertical-timeline-element-title bubbleTitle">Physics and Astronomy Department</h3>
-                        <h5 className="vertical-timeline-element-subtitle bubbleTitle">Brigham Young University</h5>
+                        <h5 className="vertical-timeline-element-subtitle bubbleTitle">Brigham Young University </h5>
                         <p className="bubbleTitle">
-                        Full-Stack Developer & UX Designer
+                        Full-Stack Engineer & UX Designer
                         <br/>
+                        May 2020 - May 2021
                         <br/>
                         Technology used:
                         <br/>
@@ -286,15 +287,15 @@ export default function NotSidebar({scrollPoint}) {
                         <h3 className="vertical-timeline-element-title bubbleTitle">Master's of Information Systems Management</h3>
                         <h5 className="vertical-timeline-element-subtitle bubbleTitle">Brigham Young University</h5>
                         <p className="bubbleTitle">
-                            Current Material Includes:
+                            Graduated December 2021
+                            <br/>
+                            Curriculum included:
+                            <br/>
+                            - Full Stack Development (Angular, React, Node, C#/.NET, SQL)
+                            <br/>
+                            - Business Core (Organizational behavior, Strategy, Ethics, Negotiation)
                             <br/>
                             - iOS Development (Swift & SwiftUI, MVVM)
-                            <br/>
-                            - Negotiation (Power & influence in negotiation)
-                            <br/>
-                            - Organizational Behavior (Decision making, organizational effectiveness)
-                            <br/>
-                            - Full Stack Development (Angular, .NET, SSMS)
                             <br/>
                             <br/>
                             Capstone Project (Completed April 2021): 
@@ -314,14 +315,19 @@ export default function NotSidebar({scrollPoint}) {
                         iconStyle={{ background: '#10449E', color: '#fff' }}
                         icon=""
                     >
-                        <h3 className="vertical-timeline-element-title bubbleTitle">Software Developer</h3>
+                        <h3 className="vertical-timeline-element-title bubbleTitle">Software Engineer</h3>
                         <h5 className="vertical-timeline-element-subtitle bubbleTitle">Anglepoint</h5>
                         <p className="bubbleTitle">
-                            Full Stack Developer
+                            Full Stack Engineer, Associate Product Manager
                             <br/>
-                            - Angular/.NET stack
+                            - Angular frontend, C#/.NET backend
                             <br/>
-                            - UX Research & Design (co-led redesign of project management side of Elevate)
+                            - Led redesign and implementation processes for both project management section and 
+                            permissions engine for internal portal software, significantly upgrading outdated experience
+and decreasing loading times by up to 3 minutes
+                            <br/>
+                            - Designed and implemented new full-stack report feature by myself, which now saves
+multiple consultants over 5 hours of work per week
                             <br/>
                             <br/>
                         </p>
