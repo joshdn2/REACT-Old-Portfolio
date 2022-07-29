@@ -31,7 +31,7 @@ export default function NotSidebar({scrollPoint}) {
                     <Row>
                         <Col md={2}></Col>
                         <Col md={8}>
-                            <h3 style={{textAlign:"center"}}>Full-stack Developer <br/>+<br/>UX Researcher </h3>
+                            <h3 style={{textAlign:"center"}}>Full-stack Engineer <br/>Associate Product Manager<br/> UX Researcher</h3>
                         </Col>
                         <Col md={2}></Col>
                     </Row>
